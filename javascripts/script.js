@@ -1,6 +1,4 @@
 
-alert("Are you ready to see the music?");
-
 // ************************************
 // *********** Global Stuff! **********
 // ************************************
@@ -116,9 +114,9 @@ window.onload = function(){
           .append('svg')
             .attr('width', '1300px')
             .attr('height', '500px');
-// HACK:
+
   audioContext = new webkitAudioContext();
-  loadFile('audio/FreeBeats.mp3');
+  loadFile('../audioStarter/audio/FreeBeats.mp3');
   // loadFile('audio/YOUR AWESOME SONG');
 
 };
